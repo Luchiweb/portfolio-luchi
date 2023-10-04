@@ -1,0 +1,8 @@
+.swiper-wrapper {
+  margin-bottom: 35px;
+}
+
+.stack-slider {
+  --swiper-pagination-color: #ffba08;
+  --swiper-pagination-bullet-inactive-color: #999999;
+}

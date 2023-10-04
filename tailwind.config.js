@@ -9,7 +9,6 @@ export default {
       colors: {
         'main-color': 'var(--main-color)',
         'secondary-color': 'var(--secondary-color)',
-        'tertiary-color': 'var(--tertiary-color)',
         'bg-color': 'var(--bg-color)',
       },
       keyframes: {

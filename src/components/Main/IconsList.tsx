@@ -1,4 +1,4 @@
-import { iconNames } from "./iconsNames";
+import { iconNames } from "../../helpers/iconsNames";
 
 function IconsList() {
   return (

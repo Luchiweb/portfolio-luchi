@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="container gap-20 my-10">
+    <div className="container gap-20 py-10">
       <div className="w-full rounded-xl overflow-hidden border-2 border-main-color shadow-0">
         <img src="./me2.png" alt="" className="w-full" />
       </div>

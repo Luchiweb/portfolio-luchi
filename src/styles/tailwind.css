@@ -7,7 +7,8 @@
 @layer base {
   :root {
     --main-color: #fcbc34;
-    --bg-color: #0f1012;
+    --secondary-color: #0f1012;
+    --bg-color: #1b1b1b;
     --main-font-family: "Montserrat", sans-serif;
     --secondary-font-family: "Open Sans", sans-serif;
   }
