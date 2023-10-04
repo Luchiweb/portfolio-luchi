@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'main-color': 'var(--main-color)',
+        'secondary-color': 'var(--secondary-color)',
+        'tertiary-color': 'var(--tertiary-color)',
+        'bg-color': 'var(--bg-color)',
+      },
+      fontFamily: {
+        '--main-font-family': '"Montserrat", sans-serif',
+        '--secondary-font-family': '"Josefin Sans", sans-serif',
+      },
+    },
   },
   plugins: [],
 }
