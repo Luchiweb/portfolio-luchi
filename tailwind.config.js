@@ -21,6 +21,9 @@ export default {
       },
       animation: {
         marque: 'marque 5s linear infinite',
+      },
+      boxShadow: {
+        '0': '-8px 8px var(--main-color) ',
       }
     },
   },

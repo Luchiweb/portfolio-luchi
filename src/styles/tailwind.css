@@ -13,6 +13,10 @@
   }
 }
 
+h2 {
+  @apply text-4xl font-semibold;
+}
+
 .container {
   @apply px-4 md:px-10 flex items-center justify-between max-w-[1400px] mx-auto relative;
 }
