@@ -15,11 +15,31 @@
 }
 
 h2 {
-  @apply text-4xl font-semibold;
+  @apply text-4xl font-semibold mb-2;
+}
+
+h3 {
+  @apply text-2xl font-semibold mb-2;
+}
+
+h4 {
+  @apply text-xl font-medium mb-2;
+}
+
+p {
+  @apply text-white text-xs;
 }
 
 .container {
   @apply px-4 md:px-10 flex items-center justify-between max-w-[1400px] mx-auto relative;
+}
+
+.yellow-button {
+  @apply bg-main-color px-10 py-3 rounded-xl text-secondary-color font-semibold drop-shadow-[0_4px_4px_rgba(255,229,96,0.25)] border border-transparent transition-all hover:drop-shadow-none hover:border-secondary-color;
+}
+
+.secondary-button {
+  @apply border border-main-color font-medium text-xs px-3 py-1 rounded-md hover:bg-main-color hover:text-secondary-color transition-colors;
 }
 
 .open-sans {

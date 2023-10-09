@@ -4,7 +4,7 @@ function About() {
       <div className="w-full rounded-xl overflow-hidden border-2 border-main-color shadow-0">
         <img src="./me2.png" alt="" className="w-full" />
       </div>
-      <div className="">
+      <div>
         <h2>About me</h2>
         <div className="text-white flex flex-col gap-4 mt-4">
           <p>
@@ -14,7 +14,6 @@ function About() {
           <p>
             My expertise lies in the
             <b>
-              {" "}
               HTML, CSS, JavaScript/TypeScript, React, Redux/RTK, and Next.js{" "}
             </b>
             stacks. I believe that a well-designed user interface isn't just
